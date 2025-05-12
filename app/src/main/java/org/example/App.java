@@ -20,7 +20,6 @@ public class App {
         int numberOfCases = (int) (Math.random() * 10) + 1;
         Case[] cases = new Case[numberOfCases];
 
-        
         for (int i = 0; i < numberOfCases; i++) {
             // Use the Case constructor that takes an ID and creates random values
             cases[i] = new Case(String.valueOf(i + 1));
