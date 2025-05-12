@@ -29,6 +29,7 @@ get("/report", (req, res) -> {
 
         VelocityContext context = new VelocityContext();
         context.put("cases", cases);
+        context.put("date", new java.util.Date().toString());
 
         StringWriter writer = new StringWriter();
         template.merge(context, writer);
