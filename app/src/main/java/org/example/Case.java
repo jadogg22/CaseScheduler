@@ -84,7 +84,7 @@ public class Case{
     /**
      * Getters and Setters for the Case class.
      */
-    public String getid() {
+    public String getId() {
         return id;
     }
 
@@ -118,7 +118,7 @@ public class Case{
         this.type = type;
     }
 
-    public int getEstematedTime() {
+    public int getEstimatedTime() {
         return this.estematedTime;
     }
 

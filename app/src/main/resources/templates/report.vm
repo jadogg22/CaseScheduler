@@ -1,0 +1,11 @@
+<html>
+  <head><title>Case Report</title></head>
+  <body>
+    <h1>Generated Case Report</h1>
+    <ul>
+      #foreach ($case in $cases)
+        <li>$case</li>
+      #end
+    </ul>
+  </body>
+</html>

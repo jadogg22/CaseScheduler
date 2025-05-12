@@ -12,4 +12,4 @@ plugins {
 }
 
 rootProject.name = 'CaseTracker'
-include('app')
+include 'app'
